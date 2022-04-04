@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body{
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+#main-container{
+  margin: 0px;
+  padding: 0px;
+  height:100%;
+background:linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ), url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+  display:flex;
+ flex-direction:column;
+  align-items:center;
+  padding-top:1em;
+}
+#title{
+font-weight:200;
+  color:#F3F3F3;
+  text-align:center;
+}
+#description{
+ font-style: italic; 
+  font-weight: 200;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+#form{
+  width:51vw;
+  margin-top:2em;
+  background-color:#2B2B4A;
+  padding:2em 2em 3em 2em;
+}
+
+#description{
+  margin-top:-0.7em;
+  text-align: center;
+  margin: 1em 2em;
+}
+#survey-form{
+  display:flex;
+  flex-direction: column;
+}
+.form-group{
+  display:flex;
+  flex-direction: column;
+  margin:0.7em;
+}
+#form-group{
+  display:grid;
+  margin-left:1em;
+}
+.gridItm2{
+  display:grid;
+ grid-template-columns: 2em 10em;
+  margin-top:-0.8em;
+}
+
+input[type=radio] {
+    border: 0px;
+    min-width: 55%;
+    height: 1em;
+}
+label{
+  margin-bottom:0.2em;
+  color:#F3F3F3;
+  font-size:1.2em;
+}
+p{
+  color:#F3F3F3;
+   font-size:1.2em;
+}
+input,select,textarea,button{
+  padding: 0.6rem;
+  font-size: 1.2rem;
+   font-family: 'Poppins', sans-serif;
+  min-width:1rem;
+  border-radius:10px;
+}
+input[type=checkbox] {
+    border: 0px;
+    width: 9%;
+    height: 1em;
+  margin-left:-0.3em;
+}
+#submit{
+background-color:#43AF65;
+}
